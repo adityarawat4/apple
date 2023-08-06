@@ -1,0 +1,950 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+body{
+    background:rgb(255, 255, 255);
+}
+.home{
+    display: flex;
+    
+}
+.menu{
+    padding: 10px 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-meida{
+    position: absolute;
+     bottom: 10%;
+    }
+.menu-icon{
+    position: absolute;
+    top: 0px;
+    cursor: pointer;
+}
+.menu i{
+    color: rgb(0, 0, 0);
+    display: block;
+    margin: 15px 0px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.hero{
+    background:#000000;
+    width: 100%;
+    height: 100vh;
+    border-bottom-left-radius: 20px;
+}
+.logo i{
+    color: white;
+    font-size: 20px;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+
+}
+.navigation ul li{
+    margin: 0px 20px;
+}
+.navigation a{
+    color: white;
+}
+.navigation .active{
+    color:white;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+
+ 
+
+.main{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.product-img-div{
+    width: 500px;
+}
+.product-img-div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.watch{
+    padding-left: 60px;
+}
+
+.product-info h1{
+    color: white;
+    font-size: 60px;   
+}
+.product-info p{
+    color: white;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+.product-info h2{
+    color: white;
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.product-info button{
+    background: transparent;
+    font-size: 18px;
+    padding: 8px 20px;
+    outline: none;
+    border: none;
+    border: 1.5px solid white;
+    border-radius: 20px;
+    margin: 20px 0px;
+    transition: all 0.78 ease;
+}
+.product-info button a{
+   color: white;
+}
+.product-info button:hover{
+    transform: translateY(-5px);
+}
+
+
+.suggestion{
+    position: absolute;
+    right: 10%;
+    bottom: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px
+}
+.watch-suggestion{
+    width: 100px;
+    height: 70px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.watch-suggestion img{
+    width: 100%;
+    margin-top: -40px;
+    transition: all 0.2 ease;
+}
+.watch-suggestion img:hover{
+    transform: translateY(-4px);
+}
+.w-1{
+    background: rgb(180, 178, 178);
+}
+.w-2{
+    background:#f1948a;
+}
+.w-3{
+    background:#f9fbe7;
+}
+.w-2 img{
+    width: 95px;
+}
+
+
+/* second row------------------------------------------------------ */
+
+.sec-2{
+    background:rgb(247, 247, 247);
+    margin: 50px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    text-align: center;
+    border-radius: 8px;
+
+}
+.product-col-info{
+    padding: 0px 20px;
+}
+.product-col-info h3{
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    
+}
+.sec-2 i{
+    color: rgb(10, 126, 234);
+    font-size: 12px;
+    margin-left: 3px;
+}
+.product-col-info h2{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+.product-col-info a{
+    color:rgb(10, 126, 234);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.product-col-img{
+    width: 500px;
+}
+.product-col-img img{
+    width: 100%;
+    height: 100%;
+    mix-blend-mode:normal;
+}
+
+
+
+.sec-3{
+
+    text-align: center;
+}
+.sec-3 h1{
+    font-size: 45px;
+    margin: 70px 0px;
+}
+.watch-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.watches-img-div{
+    width: 200px;
+}
+.watches-img-div img{
+    width: 100%;
+    height: 100%;
+}
+.watches h2{
+    font-size: 18px;
+    margin: 5px 0px;
+}
+.watches p{
+    font-size: 14px;
+    margin: 5px 0px;
+}
+.watches i{
+    color: rgb(10, 126, 234);
+    font-size: 12px;
+    margin-left: 3px;
+}
+.watches button{
+    background: rgb(0, 0, 0);
+    border: none;
+    outline: none;  
+    padding: 4px 8px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.watches button a{
+    color: white;
+}
+.watches a{
+    color: rgb(10, 126, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* sec-4------------------------------------------ */
+
+.sec-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 30px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 8px;
+    text-align: center;
+}
+.watchos-heading h1{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.watchos-heading p{
+    margin: 10px 0px;
+    font-size: 15px;
+}
+.watchos-heading a{
+    color: rgb(10, 126, 234);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.watchos-heading i{
+    color: rgb(10, 126, 234);
+    font-size: 12px;
+    margin-left: 3px;
+}
+.watchos-img-div{
+    width: 980px;
+}
+.watchos-img-div img{
+    width: 100%;
+    height: 100%;
+}
+
+.sec-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 30px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+}
+.watch-item-heading{
+    margin: 30px 0px;
+}
+.watch-item-heading h1{
+    font-size: 30px;
+}
+.watch-item-heading p{
+    font-size: 16px;
+    margin: 10px 0px;
+}
+.watch-item-heading a{
+    color: rgb(10, 126, 234);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow{
+    font-size: 12px;
+    color: rgb(10, 126, 234);
+    margin-left: 3px;
+}
+.watch-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+.watch-item-img-div{
+    width: 400px;
+}
+.watch-item-img-div img{
+    width: 100%;
+    height: 100%;
+}
+.sec-5{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 20px 80px; */
+    gap: 0px;
+    text-align: center;
+}
+.sec-5-col i{
+    font-size: 25px;
+    color: rgb(1, 35, 67);
+    margin: 10px 0px;
+}
+.sec-5-col h3{
+    font-size: 20px;
+}
+.sec-5-col p{
+    font-size: 15px;
+    margin: 10px 0px;
+}
+.sec-5-col a{
+    font-size: 14px;
+    color: rgb(10, 126, 234);
+    margin: 10px 0px;
+}
+.sec-5-col a .arrow{
+    font-size: 12px;
+    color: rgb(10, 126, 234);
+    margin-left: 3px;
+}
+
+
+.heading{
+    text-align: center;
+    margin: 70px 0px 0px 0px;
+    font-size: 18px;
+}
+.sec-7{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background: rgb(247, 247, 247);
+    margin:30px;
+    gap: 30px;
+    text-align: center;
+}
+.sec-7-img-div{
+    width: 400px;
+    margin: 40px 10px;
+}
+.sec-7-img-div img{
+    width: 100%;
+    width: 100%;
+
+}
+.sec-7-right h2{
+    font-size: 80px;
+}
+.sec-7-right h2 i{
+    margin-right: 5px;
+}
+.sec-7-right h3{
+   font-size: 20px;
+   word-spacing: 2px;
+   margin: 10px 0px;
+}
+.sec-7-right a{
+   font-size: 15px;
+   color: rgb(10, 126, 234);
+   margin-right: 20px;
+   
+   
+}
+
+
+.three-watch h2{
+    margin: 10px;
+    font-size: 20PX;
+}
+.three-watch h2 I{
+    font-size: 24PX;
+    margin-right: 4PX;
+}
+.three-watch h2 span{
+    font-size: 14PX;
+    color: #eb5949;
+}
+.three-img{
+    width: 800px;
+}
+
+/* footer-------------------------------- */
+
+footer {
+    border-top: 1px solid #2222;
+    padding: 30px 0px;
+}
+footer i{
+    margin-left: 60px;
+    font-size: 20px;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.foot h2{
+    font-size: 16px;
+    margin: 5px 0px;
+}
+.foot ul li{
+    font-size: 14px;
+    margin: 8px 0px;
+}
+
+
+
+.iPhone-hero{
+    background:#000000;
+    width: 100%;
+    height: 100vh;
+    border-bottom-left-radius: 20px;
+}
+a{
+    text-decoration: none;
+}
+.phone-info{
+    margin: 0px;
+    padding: 0px;
+}
+.phone-info  h1{
+   color:white;
+   margin-left: 60px;
+   font-size: 60px;
+}
+.phone-info  p{
+   color:white;
+   margin-left: 60px;
+   font-size: 14px;
+}
+.phone-info  h2{
+   color:white;
+   margin-left: 60px;
+   font-size: 35px;
+}
+.phone-info  span{
+   color:white;
+
+}
+.phone-info button{
+   color:white;
+   margin-left: 60px;
+   font-size: 16px;
+}
+
+
+.phone-img-div{
+    padding: 70px 0px;
+    width: 650px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.phone-img-div img{
+    width: 100%;
+    height: 100%;
+}
+.black-shadow{
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    background: linear-gradient(to right,transparent,#000);
+}
+
+.iphone-sec6{
+    background: white;
+}
+.iPhone-heading span{
+    font-size: 13px;
+}
+.iPhone-heading h2{
+    font-size: 18px;
+}
+.iPhone-heading h1{
+    font-size: 45px;
+}
+.iphone-div-img{
+width: 850px;
+}
+.iphone-div-img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* section 2 */
+
+.phone-black-back{
+    border-radius: 0%;
+    background: #000;
+    color: white;
+    margin: 0%;
+    margin: 20px 0px;
+    padding-top: 30px;
+}
+.iphone14-heading h1{
+    font-size: 40px;
+    color: white;
+}
+.iphone14-heading h2{
+    font-size: 14px;
+    color: white;
+}
+.iphone14-heading p{
+    font-size: 16px;
+    color: white;
+}
+.phones-14{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.phone14-item{
+    width: 700px;
+    margin-top: 30px;
+    margin-bottom: -40px;
+}
+.phone14-item img{
+    width: 100%;
+    height: 100%;
+}
+.phone-details a{
+    color: rgb(10, 126, 234);
+}
+/* section 3-------- */
+.link{
+    color: rgb(10, 126, 234);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+.phone-tittle{
+    text-align: center;
+    margin: 50px 0px;
+}
+.phone-tittle h3{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phone-tittle h3 span{
+    font-size: 8px;
+    padding: 1px;
+    border: 1px solid black;
+    border-radius: 2px;margin: 0px 3px ;
+}
+.phone-tittle h1{
+    margin-top: 20px;
+    font-size: 40px;
+    line-height: 30px;
+    color: rgb(10, 89, 164);
+    font-weight: 500;
+    
+    
+}
+.phone-tittle h2{
+    color: rgb(10, 89, 164);
+    font-weight: 500;
+    font-size: 35px;
+}
+.phone-tittle p{
+    font-size: 16px;
+    margin: 5px;
+}
+.buy{
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 4px 6px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.buy a{
+    color: white;
+}
+.se{
+    background: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    padding: 0px;
+}
+.se-img-div{
+    width: 220px;
+}
+.se-img-div img{
+    width:100%;
+    height: 100%;
+}
+
+.emoji{
+    background: white;
+    margin: 30px 0px ;
+    text-align: left;
+}
+.emoji .sec-7-right h2{
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.phone-list{
+   text-align: center;    
+   margin-bottom: 30px;
+}
+.phone-list h1{
+   font-size: 32px;
+    font-weight:600;
+    margin-bottom: 70px;
+}
+.emoji p{
+    margin: 10px 0px;
+}
+.emoji a{
+    margin: 10px 0px;
+}
+.phones-14{
+    align-items: center;
+}
+.iphone-14{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.iphone-img-div{
+    width: 150px;
+}
+.iphone-img-div img{
+    width: 100%;
+    height: 100%;
+}
+.phone-details{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #2222;
+}
+.phone-details h2{
+    font-size: 16px;
+    margin-top: 20px;
+    color: rgb(241, 34, 34);
+}
+.phone-details h1{
+    font-size: 22px;
+    margin-bottom:10px;
+
+}
+.phone-details h3{
+    font-size: 16px;
+}
+.phone-details p{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.phone-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.phone-feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.screen-size h1{
+    font-size: 20px;
+    text-align: center;
+}
+.screen-size p{
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.big-col{
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+   padding:30px 0px;
+}
+.big-col h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0px;
+    margin-bottom: 40px;
+
+   
+}
+.big-col-row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 80px;
+    gap: 180px;
+    
+}
+.big-col-row1 h1{
+    font-size: 20px;
+    font-weight: 600;
+  
+}
+.big-col-row1 p{
+    font-size: 16px; 
+    margin: 5px 0px; 
+}
+.big-col-row1 a{ 
+    margin: 10px 0px; 
+}
+.big-col-row1-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding-top:30px; 
+    
+}
+.big-col-row1-right{
+    padding-top:30px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    
+}
+.big-col-left-img{
+    width: 500px;
+    margin-top: 30px;
+    
+}
+.big-col-left-img img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: -8px;
+    object-fit: cover;
+}
+.big-col-right-img{
+    width: 450px;
+    margin-top: 30px;
+    
+}
+.big-col-right-img img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: -10px;
+    object-fit: cover;
+}
+.big-col-row2{
+    margin: 100px 60px; 
+}
+.big-col-row2-img .content p{
+    margin: 5px 0px;
+}
+.big-col-row2-img .content a{
+    margin: 10px 0px;
+}
+.big-col-row2-img{
+    width: 1140px;
+    position: relative;
+
+}
+.big-col-row2-img img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+}
+.tag{
+    text-align: center;
+    margin: 20px 60px;
+    padding: 0%;
+    background: white;
+    gap: 200px;
+}
+.tag h2{
+    font-size: 40px;
+    margin: 10px;
+}
+.tag a{
+    font-size: 14px;
+}
+.magsafe{
+    width: 480px;
+    padding: 0px 20px;
+}
+.magsafe img{
+    width:100%;
+    height: 100%;
+    margin-bottom: -40px;
+}
+.airtag{
+    text-align: center;
+    margin: 20px 60px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0%;
+}
+.airtag-img{
+    width: 700px;
+    padding: 0%;
+    margin: 0%;
+
+}
+.airtag-img img{
+    width: 100%;
+    height: 100%;
+}
+.airtag .sec-7-right{
+    margin-right: 100px;
+}
+.airtag h2{
+    font-size: 40px;
+    margin: 10px;
+}
+.white-back{
+    margin: 20px 60px;
+    background: white;
+    border-radius: 0%;
+}
+
+footer {
+    border-top: 1px solid #2222;
+    padding: 30px 0px;
+}
+footer i{
+    margin-left: 60px;
+    font-size: 20px;
+}
+.iphone-foot{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    align-items: center;
+    
+}
+.iphone-foot h2{
+    font-size: 16px;
+    margin: 5px 0px;
+}
+.iphone-foot ul li{
+    font-size: 14px;
+    margin: 8px 0px;
+}
+.iphone-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+@media (max-width:1024px) {
+
+.big-col-row2-img{
+    width: 910px;
+    position: relative;
+
+}
+.big-col-row2-img img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.big-col-row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 80px;
+    gap: 50px;
+    
+}
+}

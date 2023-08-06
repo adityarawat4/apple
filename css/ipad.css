@@ -1,0 +1,631 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+body{
+    background:rgb(255, 255, 255);
+}
+.home{
+    display: flex;  
+}
+.menu{
+    padding: 10px 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-meida{
+    position: absolute;
+     bottom: 10%;
+    }
+.menu-icon{
+    position: absolute;
+    top: 0px;
+    cursor: pointer;
+}
+.menu i{
+    color: rgb(0, 0, 0);
+    display: block;
+    margin: 15px 0px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.hero{
+    background:#000000;
+    width: 100%;
+    height: 100vh;
+    border-bottom-left-radius: 20px;
+}
+.logo i{
+    color: white;
+    font-size: 20px;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.navigation ul li{
+    margin: 0px 20px;
+}
+.navigation a{
+    color: white;
+}
+.navigation .active{
+    color:white;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+.main{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.ipad-img-div{
+    width: 700px;
+}
+.ipad-img-div img{
+    width: 100%;
+    height: 100%;
+}
+.ipad-tittle{
+    text-align: center;
+    margin: 0px 90px;
+}
+.ipad-tittle span{
+    color: rgb(234, 61, 61);
+    
+}
+.ipad-tittle h1{
+    font-size: 55px; 
+    margin: 5px 0px;
+    color: white;
+}
+.ipad-tittle h2{
+    font-size: 30px; 
+    color: white;
+    font-weight: 600;
+    
+}
+
+.ipad-tittle p{
+    color: white;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.ipad-tittle button{
+    background: transparent;
+    font-size: 15px;
+    padding: 4px 10px;
+    outline: none;
+    background: rgb(10, 126, 234);
+    border: none;
+    border-radius: 20px;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+.product-info button a{
+   color: white;
+}
+.product-info button:hover{
+    transform: translateY(-5px);
+}
+
+
+/* section 2---------------------------------------------------------------------------- */
+
+.section-2{
+    margin: 30px 0px;
+}
+.left-right-col{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.section-2 .left-right-col{
+    justify-content: center;
+    
+}
+.section-2 .left-right-col .left .img-div{
+    width: 400px;
+}
+.section-2 .left-right-col .left .img-div img{
+    width: 100%;
+    height: 100%;
+}
+.left-right-col .right{
+    text-align: center;
+}
+.section-2 .left-right-col .right h1{
+    font-size: 50px;
+    margin: 5px 0px;
+}
+.section-2 .left-right-col .right h1 span{
+    font-size: 16px;
+    font-weight: 200;
+    color: rgb(234, 61, 61);
+
+}
+.section-2 .left-right-col .right h2{
+    font-size: 20px;
+    margin: 5px 0px;
+    font-weight: 600;
+}
+.section-2 .left-right-col .right p{
+    font-size: 16px;
+    margin: 15px 0px;
+}
+.buy{
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 4px 6px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.buy a{
+    color: white;
+}
+.link{
+    color: rgb(10, 126, 234);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow{
+    font-size: 12px;
+    color: rgb(10, 126, 234);
+    margin-left: 3px;
+}
+
+/* list------------------------------------- */
+
+.suggestion-list{
+    margin-top: 100px ;
+}
+.suggestion-list h1{
+    text-align: center;    
+}
+.suggestion-list .lists{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: 30px 0px;
+}
+.suggestion-heading{
+    margin: 70px 0px;
+}
+
+.suggestion-list .lists .list-items .img-div{
+    width: 150px;
+}
+.suggestion-list .lists .list-items .ipad_pro{
+    width: 180px;
+}
+.suggestion-list .lists .list-items .img-div img{
+    width: 100%;
+    height: 100%;
+}
+.suggestion-list .lists .list-items .item-details h1{
+    font-size: 22px;
+    margin: 5px 0px;
+}
+.suggestion-list .lists .list-items .item-details h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+.suggestion-list .lists .list-items .item-details p{
+    font-size: 15px;
+    margin: 10px 0px;
+}
+.suggestion-list .lists .list-items .item-details button{
+    margin: 8px 0px;
+}
+.suggestion-list .lists .list-items .item-details a{
+    margin: 8px 0px;
+    font-size: 14px;
+}
+
+
+/* big----section--------------------------- */
+
+.big-section{
+    background: rgb(247, 247, 247);
+    padding: 30px 60px;
+}
+.heading-div h1{
+    margin: 50px 0px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* section 3-------------------------------------- */
+
+.section-3{
+    background:white;
+}
+.section-3 .left-right-col{
+    gap: 50px;
+}
+.section-3 .left-right-col .left .img-div{
+    width: 600px;
+}
+.section-3 .left-right-col .left .img-div img{
+    width: 100%;
+    height: 100%;
+}
+.left-right-col .right{
+    text-align: center;
+    word-break: keep-all;
+    padding-left: 30px;
+}
+.section-3 .left-right-col .right h1{
+    font-size: 35px;
+    margin: 5px 0px;
+}
+.section-3 .left-right-col .right p{
+    font-size: 16px;
+    margin: 14px 0px;
+}
+.section-3 .left-right-col .right .link{
+    margin: 20px 0px;
+}
+
+/* section 4------------------------------------------ */
+
+.section-4{
+    margin: 70px 0px;
+}
+.about-apple{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    word-break:keep-all;
+}
+.about-apple .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-apple .col i{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.about-apple .col h3{
+    font-size: 20px;
+    margin: 5px 0px;
+}
+.about-apple .col p{
+    font-size: 16px;
+    margin: 10px 0px;
+}
+.about-apple .col p{
+    font-size: 16px;
+    margin: 10px 0px;
+}
+.about-apple .col .arrow{
+    font-size: 12px;
+    margin-left: 3px;
+}
+
+
+/* section - 6------------------------------------- */
+
+.section-6{
+   background: white;
+}
+.top-down{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+    text-align: center;
+}
+.section-6 .top h1{
+    margin: 10px 0px;
+}
+.section-6 .top p{
+    font-size: 16px;
+    margin: 10px 0px;
+}
+.section-6 .top a{
+    margin: 20px 0px;
+}
+.down .img-div{
+    width: 800px;
+}
+.down .img-div img{
+    width: 100%;
+    height: 100%;
+}
+
+/* section - 7------------------------------------- */
+
+.section-7{
+    background: white;
+    margin: 30px 0px;
+}
+.section-7 .left-right-col .left .img-div{
+    width: 600px;
+}
+.section-7 .left-right-col .left .img-div img{
+    width: 100%;
+    height: 100%;
+}
+.section-7 .left-right-col .right{
+    word-break: keep-all;
+}
+.section-7 .left-right-col .right h1{
+    font-size:45px;
+}
+.section-7 .left-right-col .right p{
+    margin: 10px 0px;
+}
+.section-7 .left-right-col .right a{
+    margin: 10px 0px;
+}
+
+/* section 8-------------------------- */
+
+.section-8{
+    margin: 30px 0px;
+    
+}
+.section-8 .img-div{
+    background:url(../images/ipados17__fbavkgtxnxyu_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.section-8 .img-div .details-div{
+   position: absolute;
+   top: 15%;
+   left: 45%;
+}
+
+/* section - 9------------------------------------- */
+
+.section-9{
+    margin: 30px 0px;
+    background: white;  
+}
+.section-9 .top-down .down .img-div{
+    margin: 20px 0px 0px 0px;
+    width: 700px;
+}
+.section-9 .top-down .down .img-div img{
+    width: 100%;
+    height: 100%;
+}
+
+/* section - 10------------------------------------- */
+.section-10{
+    margin: 20px 0px;
+}
+.section-10 .left-right-col .left .img-div{
+    width:400px;
+}
+.section-10 .left-right-col .left .img-div img{
+    width: 100%;
+    height: 100%;
+}
+.section-10 .left-right-col .right h2{
+    font-size: 80px;
+}
+.section-10 .left-right-col .right h2 i{
+    margin-right: 5px;
+}
+.section-10 .left-right-col .right h3{
+   font-size: 20px;
+   word-spacing: 2px;
+   margin: 10px 0px;
+}
+.section-10 .left-right-col .right a{
+   font-size: 15px;
+   color: rgb(10, 126, 234);
+   margin-right: 20px;
+   padding-top: 40px;
+   display: inline;
+   
+}
+
+/* footer----------------------------------------- */
+
+footer {
+    border-top: 1px solid #2222;
+    padding: 30px 0px;
+}
+footer i{
+    margin-left: 60px;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.foot h2{
+    font-size: 16px;
+    margin: 5px 0px;
+}
+.foot ul li{
+    font-size: 14px;
+    margin: 8px 0px;
+}
+
+
+
+/* mac--------------------------------------------------- */
+
+/* section 2 --------------------------------------- */
+.sec-2{
+    background: rgb(247, 247, 247);
+    margin-bottom: 10px;
+}
+.sec-2 .top-down .top h1 span{
+    font-size: 14px;
+    color: rgb(234, 61, 61);
+}
+.sec-2 .top-down .top h2{
+    font-size: 22px;
+    margin: 8px 0px;  
+}
+.sec-2 .top-down .top p{
+    font-size: 16px;
+    margin: 10px 0px;  
+}
+.sec-2 .top-down .top button{
+    margin: 5px 0px;
+}
+.sec-2 .top-down .top a{
+    margin: 10px 0px;
+}
+.sec-2 .top-down .down .img-div{
+    width: 800px;
+    margin: 50px 0px;
+}
+.sec-2 .top-down .down .img-div img{
+    width: 100%;
+    height: 100%;
+}
+.sec-2 .top-down .down .mac-studio{
+    width: 500px;
+    margin: 50px 0px;
+}
+.sec-2 .top-down .down .mac-studio img{
+    width: 100%;
+    height: 100%;
+}
+.sec-2 .top-down .down .mac-pro{
+    width: 500px;
+}
+.sec-2 .top-down .down .mac-pro img{
+    width: 100%;
+    height: 100%;
+}
+
+.big-sec{
+    background: rgb(255, 255, 255);
+    padding: 30px 60px;
+}
+
+/* sec -6------------------------------- */
+.sec-6{
+    background: #fdfdfd;
+    margin-bottom: 10px;
+}
+.sec-7{
+    background: rgb(247, 247, 247);
+    margin-bottom: 10px;
+}
+.sec-8{
+    background: rgb(247, 247, 247);
+    margin-bottom: 10px;
+}
+
+/* sec -10------------------------------- */
+
+ .sec-10 .left-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .sec-10 .left-right .left{
+   background: rgb(247, 247, 247);
+ }
+ .sec-10 .left-right .right{
+   background: rgb(247, 247, 247);
+ }
+
+ /* sec -11------------------------------- */
+ .sec-11{
+     
+     background: rgb(247, 247, 247);
+     margin-bottom: 10px;
+}
+
+/* sec -11------------------------------- */
+ .sec-12{
+    background: rgb(247, 247, 247);
+    margin-bottom: 10px;
+    text-align: center;
+}
+.sec-12 .apps{
+    padding-top: 50px;
+}
+.sec-12 .apps p{
+    padding:10px;
+}
+.sec-12 .apps .app-list{
+    padding:30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.sec-12 .apps .app-list .app-icon{
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec-12 .apps .app-list .app-icon img{
+    width: 100%;
+    height: 100%;
+}
+.sec-12 .top-down .top p{
+    padding: 20px 100px;
+    line-height: 20px;
+
+}
+
+
+@media screen and (min-width:200px) and (max-width:678px){
+    .home{
+        display: none;
+    }
+
+    .section-2{
+    margin: 20px 20px;
+    width: 100%;
+    }
+    .left-right-col{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+    }
+    .section-2 .left-right-col .left .img-div{
+        width: 300px;
+    }
+    .section-2 .left-right-col{
+        justify-content: center;
+        margin: 10px 30px;
+    }
+}
